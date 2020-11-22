@@ -16,7 +16,7 @@ var furthestScrollX = 0;
 window.onload = function() {
     var dog = document.querySelector('.dog');
     var width = window.innerWidth;
-    dog.style.marginLeft = (width / 2) - (width / 8) + 'px';
+    dog.style.marginLeft = (width / 2) - (width / 6) + 'px';
 
     document.querySelector('.doggo').innerHTML = doggo;
 
